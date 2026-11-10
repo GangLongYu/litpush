@@ -1,0 +1,9 @@
+# 本项目的运行时依赖：无。
+#
+# 只用 Python 标准库（tomllib / urllib / sqlite3 / re / json），
+# 不需要 pip install 任何东西。
+#
+# 要求：Python >= 3.11（标准库 tomllib 从 3.11 开始提供）。
+#
+# 可选：接入 OpenAI 兼容的大模型接口做摘要改写时，也是用 urllib 直连，
+# 不需要装 openai / httpx 这类 SDK。

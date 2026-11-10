@@ -1,0 +1,23 @@
+# 运行期数据：去重库、HTTP 缓存、人工补录的摘要
+data/*
+!data/.gitkeep
+
+# 日志
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+
+# 本地配置（含个人路径，可能含 API key）——模板 config.example.toml 是要提交的
+config/config.toml
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
